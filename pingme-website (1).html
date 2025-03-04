@@ -1,0 +1,254 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PingMe - Smart Contact Solution</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap 5 JS Bundle (Includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS Animation CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <a href="#" class="logo">
+        <img src="logo.png" alt="PingMe Logo" style="height: 40px;">
+      </a>
+      <div class="nav-links">
+        <a href="#how-it-works">How It Works</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#cta" class="btn">Get Started</a>
+      </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="section-wrapper">
+        <div class="hero-content">
+          <h1>Stay Connected, Stay <span class="highlight">Private</span> – Just PingMe.</h1>
+          <p>The smart contact solution that allows people to reach vehicle owners privately via QR codes. No more parking frustrations, just scan and ping!</p>
+          <a href="#how-it-works" class="btn">Discover How</a>
+        </div>
+      </div>
+      <div class="car-container">
+        <img src="WhatsApp Image 2025-02-21 at 19.24.39_5664a501.jpg" alt="Car with QR Code" class="car-image">
+        <img src="WhatsApp Image 2025-02-21 at 19.23.16_72841c9d.jpg" alt="QR Code Sticker" class="qr-sticker">
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+      <div class="container">
+        <h2>How It Works</h2>
+        <p>Connecting vehicle owners and the public has never been this simple</p>
+        <div class="steps-container">
+          <div class="step" id="step1">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3>Attach Your QR Code</h3>
+              <p>Place your personalized PingMe QR sticker on your vehicle, bike, luggage, or any item you want to be contactable about.</p>
+            </div>
+            <img src="WhatsApp Image 2025-02-21 at 19.23.16_72841c9d.jpg" alt="Attaching QR Code" class="step-image">
+          </div>
+          <div class="step" id="step2">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3>Someone Scans Your Code</h3>
+              <p>When someone needs to contact you about your vehicle, they simply scan the QR code with their smartphone.</p>
+            </div>
+            <img src="https://media.istockphoto.com/id/918377954/photo/woman-scans-qr-code-using-ride-share-app.jpg?s=1024x1024&w=is&k=20&c=nP1_ljh9pDfcvTphDappZ8Xqe_4jaZmD6ZF6AVHh07I=" alt="Scanning QR Code" class="step-image">
+          </div>
+          <div class="step" id="step3">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3>Receive Instant Notification</h3>
+              <p>You get a private message instantly, without sharing your personal contact details.</p>
+            </div>
+            <img src="https://media.istockphoto.com/id/1503167694/photo/young-man-using-phone-with-danger-alert.jpg?s=1024x1024&w=is&k=20&c=csh7x12e4zXkGiDK2_d1K3k_MW2RqTf8Y9CMB-cV5GQ=" alt="Receiving Notification" class="step-image">
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Pricing Section -->
+<section class="pricing" id="pricing">
+  <h2>Choose Your Plan</h2>
+  <div class="pricing-plans">
+      
+      <!-- Basic Plan -->
+      <div class="pricing-card">
+          <h3>Basic</h3>
+          <p class="price">$9.99/month</p>
+          <ul class="features">
+              <li>✔ 5 GB Storage</li>
+              <li>✔ Basic Support</li>
+              <li>✔ Limited Access</li>
+          </ul>
+          <a href="#" class="pricing-btn">Get Started</a>
+      </div>
+      
+      <!-- Standard Plan -->
+      <div class="pricing-card">
+          <h3>Standard</h3>
+          <p class="price">$19.99/month</p>
+          <ul class="features">
+              <li>✔ 50 GB Storage</li>
+              <li>✔ Priority Support</li>
+              <li>✔ Advanced Features</li>
+          </ul>
+          <a href="#" class="pricing-btn">Get Started</a>
+      </div>
+      
+      <!-- Premium Plan -->
+      <div class="pricing-card">
+          <h3>Premium</h3>
+          <p class="price">$29.99/month</p>
+          <ul class="features">
+              <li>✔ Unlimited Storage</li>
+              <li>✔ 24/7 Premium Support</li>
+              <li>✔ All Features Unlocked</li>
+          </ul>
+          <a href="#" class="pricing-btn">Get Started</a>
+      </div>
+
+  </div>
+</section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="section-wrapper">
+        <h2>Premium <span class="highlight">Features</span></h2>
+        <p>Discover what makes PingMe the most advanced contactless communication solution.</p>
+        <div class="feature-cards">
+          <div class="feature-card">
+            <h3>Private & Secure</h3>
+            <p>Encrypted contactless messaging that protects your personal information.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Multi-Purpose Use</h3>
+            <p>Works with cars, bikes, luggage, and more!</p>
+          </div>
+          <div class="feature-card">
+            <h3>No App Required</h3>
+            <p>Works directly through your browser, no downloads needed.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Customizable QR Tags</h3>
+            <p>Personalize your PingMe stickers with custom colors and designs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="section-wrapper">
+        <h2>What Our <span class="highlight">Users Say</span></h2>
+        <p>Join thousands of satisfied customers who have made parking issues a thing of the past.</p>
+        <div class="testimonial-slider">
+          <div class="testimonial-slide active">
+            <div class="testimonial-content">
+              "Since using PingMe on my car, I've avoided three potential towing situations. Someone needed me to move my car, scanned the QR code, and I was able to quickly respond. It's worth every penny!"
+            </div>
+            <div class="testimonial-author">
+              <img src="https://plus.unsplash.com/premium_photo-1672239496290-5061cfee7ebb?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sarah Johnson" class="author-img">
+              <div class="author-info">
+                <h4>Sarah Johnson</h4>
+                <p>PingMe User, 8 months</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial-content">
+              "As someone who has to park in crowded urban areas, PingMe has been a game-changer."
+            </div>
+            <div class="testimonial-author">
+              <img src="https://plus.unsplash.com/premium_photo-1664533227571-cb18551cac82?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Michael Chang" class="author-img">
+              <div class="author-info">
+                <h4>Michael Chang</h4>
+                <p>PingMe User, 5 months</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+      <div class="container">
+          <div class="row justify-content-between">
+              <!-- Company Info - Made more compact -->
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <img src="logo.png" alt="PingMe Logo" class="footer-logo mb-3">
+                  <p class="mb-3">Smart vehicle communication through QR technology.</p>
+              </div>
+  
+              <!-- Quick Links - Kept essential links only -->
+              <div class="col-lg-2 col-md-6 mb-4">
+                  <h4>Quick Links</h4>
+                  <ul class="footer-links">
+                      <li><a href="#hero">Home</a></li>
+                      <li><a href="#how-it-works">How It Works</a></li>
+                      <li><a href="#features">Features</a></li>
+                      <li><a href="#pricing">Pricing</a></li>
+                  </ul>
+              </div>
+  
+              <!-- Contact - Essential info only -->
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <h4>Contact</h4>
+                  <p class="mb-2">support@pingme.com</p>
+                  <p class="mb-2">+1 (555) 123-4567</p>
+                  <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+              </div>
+  
+              <!-- Newsletter - Simplified -->
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <h4>Newsletter</h4>
+                  <div class="input-group">
+                      <input type="email" class="form-control" placeholder="Email">
+                      <button class="btn btn-primary">Subscribe</button>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Footer Bottom - Simplified -->
+          <div class="footer-bottom">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="copyright">© 2025 PingMe. All Rights Reserved</div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="footer-bottom-links">
+                          <a href="#">Privacy</a>
+                          <a href="#">Terms</a>
+                          <a href="#">Cookies</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!-- Add this before closing body tag -->
+  <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+<!-- FontAwesome for Social Icons -->
+<script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+
+  </body>
+  </html>
